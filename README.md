@@ -1,6 +1,5 @@
 # findDecor
 <html>
-<h1>findDecor</h1>
 <h4>Website peminjaman barang event pernikahan</h4>
 <p>( merupakan projek praktikum pemrograman berbasis web kelompok 5 )</p>
 <hr>
