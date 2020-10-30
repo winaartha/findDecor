@@ -128,6 +128,11 @@ hr {
 
 .footer1 {
     font-family: 'OpenSans';
+    background-color: white;
+}
+
+footer {
+    background-color: white;
 }
 
 /* finddecor footer */
