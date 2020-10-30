@@ -41,105 +41,23 @@
   </div>
   <!-- Carousel End -->
 
-  <p class="vendor">Vendor</p>
-  <hr class="mb-5">
+  <p class="vendor text-uppercase font-weight-bold text-center mt-4">Vendor</p>
+  <hr class="mb-5 ">
 
   <!-- Toko Start -->
-  <section class="toko">
-    <div class="container mb-3">
+  <section class="vendor ml-4 mb-5">
+    <div class="container">
       <div class="row">
         <div class="col-lg-4 mb-4">
           <div class="card">
             <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
             <div class="card-body">
               <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="card-title">Eufloria</h5>
+                <div class="col-lg-8">
+                  <h5 class="card-title font-weight-bold">Eufloria</h5>
                   <p class="card-text">Dekorasi Pernikahan</p>
                 </div>
-                <div class="col-lg-6">
-                  <a href="" class="btn lihat">Lihat</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="card-title">Eufloria</h5>
-                  <p class="card-text">Dekorasi Pernikahan</p>
-                </div>
-                <div class="col-lg-6">
-                  <a href="" class="btn lihat">Lihat</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="card-title">Eufloria</h5>
-                  <p class="card-text">Dekorasi Pernikahan</p>
-                </div>
-                <div class="col-lg-6">
-                  <a href="" class="btn lihat">Lihat</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="card-title">Eufloria</h5>
-                  <p class="card-text">Dekorasi Pernikahan</p>
-                </div>
-                <div class="col-lg-6">
-                  <a href="" class="btn lihat">Lihat</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="card-title">Eufloria</h5>
-                  <p class="card-text">Dekorasi Pernikahan</p>
-                </div>
-                <div class="col-lg-6">
-                  <a href="" class="btn lihat">Lihat</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card">
-            <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="card-title">Eufloria</h5>
-                  <p class="card-text">Dekorasi Pernikahan</p>
-                </div>
-                <div class="col-lg-6">
-                  <a href="" class="btn lihat">Lihat</a>
-                </div>
+                <button type="button" class="btn lihat pr-4 pl-4">LIHAT</button>
               </div>
             </div>
           </div>
@@ -152,34 +70,32 @@
 
 
   <!-- Footer Start -->
-  <div class="footer">
+  <div class="footer  border-dark border-top pb-4">
     <div class="container">
       <div class="content">
         <div class="row">
           <div class="col-sm-2 isi">
             <p class="ftitle mb-2">findDécor</p>
-            <a href="">Tentang Kami</a><br>
-            <a href="">Kebijakan Privasi</a><br>
-            <a href="">Kontak Media</a><br>
+            <a href="" class="text-dark">Tentang Kami</a><br>
+            <a href="" class="text-dark">Kebijakan Privasi</a><br>
+            <a href="" class="text-dark">Kontak Media</a><br>
           </div>
           <div class="col lg-8">
-            <p class="bayar">Pembayaran</p>
-            <div class="logo">
-              <div class="row">
-                <img src="assets/img/footer/BCA.png" alt="" width="70">
-                <img src="assets/img/footer/BNI.png" alt="" width="130" class="bni">
-                <img src="assets/img/footer/BRI.png" alt="" width="70" height="20" class="bri">
-              </div>
-              <div class="row">
-                <img src="assets/img/footer/cimbniaga.png" alt="" width="70">
-              </div>
+            <p class="bayar font-weight-bold mt-2 mb-0">PEMBAYARAN</p>
+            <div class="row p-1">
+              <img src="assets/img/footer/BCA.png" alt="" width="70">
+              <img src="assets/img/footer/BNI.png" alt="" width="130" class="bni">
+              <img src="assets/img/footer/BRI.png" alt="" width="70" height="20" class="bri">
+            </div>
+            <div class="row">
+              <img src="assets/img/footer/cimbniaga.png" alt="" width="70">
             </div>
           </div>
-          <div class="col-lg-2 isi">
-            <b>IKUTI KAMI</b><br>
-            <a href="">Instagram</a><br>
-            <a href="">Twitter</a><br>
-            <a href="">Facebook</a>
+          <div class="col-lg-2">
+            <p class="bayar font-weight-bold mt-2 mb-1">IKUTI KAMI</p>
+            <a href="" class="text-dark">Instagram</a><br>
+            <a href="" class="text-dark">Twitter</a><br>
+            <a href="" class="text-dark">Facebook</a>
           </div>
         </div>
       </div>

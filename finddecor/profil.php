@@ -20,53 +20,51 @@
         <div class="row">
             <div class="col-lg-2 mt-5">
                 <div class="menu">
-                    <a href="#">Profil Saya</a>
-                    <hr>
-                    <a href="#">Histori</a>
-                    <hr>
-                    <a href="#">Pesanan</a>
+                    <a href="#" class="text-dark">Profil Saya</a>
+                    <hr class="ml-0" width="70%">
+                    <a href="#" class="text-dark">Histori</a>
+                    <hr class="ml-0" width="70%">
+                    <a href="#" class="text-dark">Pesanan</a>
                 </div>
             </div>
             <div class="col-lg-10">
-                <div class="kotak">
+                <div class="card kotak mt-5 p-3">
                     <form action="" method="POST">
                         <div class="container">
-                            <p>Profil saya</p>
+                            <p class="judul font-weight-bold">Profil saya</p>
                             <hr>
                             <div class="row">
                                 <div class="col-lg-2">
-                                    <div class="isi">
-                                        <p>Username</p>
-                                        <p>Nama</p>
-                                        <p>Email</p>
-                                        <p>Nomor Telepon</p>
-                                    </div>
+                                    <p class="mt-3 font-weight-bold">Username</p>
+                                    <p class="mt-3 font-weight-bold">Nama</p>
+                                    <p class="mt-3 font-weight-bold">Email</p>
+                                    <p class="mt-3 font-weight-bold">Nomor Telepon</p>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 mt-3">
                                     <div class="isi">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="username" id="username" value="firdauszulkarnain" autocapitalize="off">
+                                            <input type="text" class="form-control font-weight-bold" name="username" id="username" value="firdauszulkarnain" autocapitalize="off">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="nama" id="nama" autocomplete="off" value="Muhammad Firdaus Zulkarnain">
+                                            <input type="text" class="form-control font-weight-bold" name="nama" id="nama" autocomplete="off" value="Muhammad Firdaus Zulkarnain">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="email" id="email" autocomplete="off" value="firdauszulkarnain@gmail.com">
+                                            <input type="text" class="form-control font-weight-bold" name="email" id="email" autocomplete="off" value="firdauszulkarnain@gmail.com">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" name="notelp" id="notelp" autocomplete="off" value="0819968393849">
+                                            <input type="text" class="form-control font-weight-bold" name="notelp" id="notelp" autocomplete="off" value="0819968393849">
                                         </div>
                                     </div>
-                                    <button type="submit" name="submit" class="btn btn-sm tombol">Simpan</button>
+                                    <button type="submit" name="submit" class="btn btn-sm tombol text-uppercase">Simpan</button>
                                 </div>
-                                <div class="col-lg-4">
-                                    <div class="kotakfoto">
-                                        <img src="assets/img/profile/Default.jpg" alt="" class="rounded-circle" width="70%">
+                                <div class="col-lg-4 mx-auto">
+                                    <div class="card mb-3 p-2">
+                                        <img src="assets/img/profile/Default.jpg" class="rounded-circle mx-auto border border-dark" width="70%">
                                         <div class="form-group">
-                                            <input type="file" class="form-control-file mt-3 file">
+                                            <input type="file" class="form-control-file mt-3 font-weight-bold">
                                         </div>
                                     </div>
-                                    <a href="#" class="btn btn-lg btn-block tombol">Ubah Kata Sandi</a>
+                                    <a href="#" class="btn btn-lg btn-block tombol text-uppercase">Ubah Kata Sandi</a>
                                 </div>
                             </div>
                         </div>
@@ -75,13 +73,17 @@
             </div>
         </div>
     </div>
+
     <!-- CONTENT END -->
 
     <!-- FOOTER -->
-    <div class="fixed-bottom text-center footer1">
-        <small>&copy;2020,findDécor</small>
+    <div class="fixed-bottom text-center footer1 p-2 border-dark border-top">
+        <small class="font-weight-bold text-black">&copy;2020,findDécor</small>
     </div>
+    <!-- Footer END -->
 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>
 
