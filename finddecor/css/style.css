@@ -116,6 +116,110 @@ hr {
     border-color: black;
 }
 
+/* MENU SAMPING */
+.menu a {
+    font-family: 'OpenSans';
+    font-size: 22px;
+    color: black;
+}
+
+.menu hr {
+    width: 70%;
+    margin-left: 0px;
+}
+
+
+/* Profil */
+.kotak {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    margin-left: -60px;
+}
+
+.kotak hr {
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+
+.kotak .isi {
+    margin-top: 50px;
+}
+
+.kotak p {
+    font-family: 'OpenSans';
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: 800;
+}
+
+.kotak .isi p {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.kotak .form-control {
+    max-height: 25px !important;
+    border-style: solid;
+    border-color: black;
+    font-family: 'OpenSans';
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+}
+
+.kotakfoto {
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+    align-content: center;
+}
+
+.kotakfoto img {
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+}
+
+.tombol {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: #1A3263;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'OpenSans';
+}
+
+.file {
+    color: #1A3263;
+    font-weight: 600;
+    font-family: 'OpenSans';
+}
+
+.footer1 {
+    border-top: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding: 5px;
+}
+
+.footer1 small {
+    font-family: 'OpenSans';
+    color: black;
+    font-weight: 600;
+}
+
 
 /* FOOTER */
 .footer {
@@ -233,5 +337,15 @@ hr {
 
     .shop:hover {
         color: black;
+    }
+
+    .profil:hover {
+        color: black;
+    }
+
+    .tombol:hover {
+        color: #1A3263;
+        background-color: white;
+        font-weight: 800;
     }
 }
