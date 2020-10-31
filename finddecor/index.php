@@ -70,6 +70,38 @@
             </div>
           </div>
         </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card mx-auto mb-3 ">
+            <img src="assets/img/toko/img3.png" class="card-img-top border-dark border-bottom" alt="...">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <h5 class="card-title font-weight-bold">Eufloria</h5>
+                  <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
+                </div>
+                <div class="col-lg-5">
+                  <button type="button" class="btn btn-block tombol border border-dark">LIHAT</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card mx-auto mb-3 ">
+            <img src="assets/img/toko/img3.png" class="card-img-top border-dark border-bottom" alt="...">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-lg-7">
+                  <h5 class="card-title font-weight-bold">Eufloria</h5>
+                  <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
+                </div>
+                <div class="col-lg-5">
+                  <button type="button" class="btn btn-block tombol border border-dark">LIHAT</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>

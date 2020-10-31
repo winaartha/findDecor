@@ -23,52 +23,50 @@
                <div class="menu">
                   <ul class="nav mt-3">
                      <li class="nav-item">
-                        <a class="nav-link active text-dark" href="#">Profil Saya</a>
+                        <a class="nav-link active text-dark" href="profil.php">Profil Saya</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Pemesanan</a>
+                        <a class="nav-link text-dark" href="pemesanancustomer.php">Pemesanan</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Histori</a>
+                        <a class="nav-link text-dark" href="historicustomer.php">Histori</a>
                      </li>
                   </ul>
                </div>
             </div>
             <div class="col-lg-10">
                <div class="card mt-5 p-3 mb-5">
-                  <form action="" method="POST">
-                     <div class="container">
-                        <p class="font">Profil saya</p>
-                        <hr class="mt-n2">
+                  <div class="container">
+                     <p class="font">PROFIL SAYA</p>
+                     <hr class="mt-n2">
+                     <form action="" method="POST">
                         <div class="row">
                            <div class="col-lg-8 mt-3">
-                              <div class="isi">
-                                 <div class="form-group row">
-                                    <label for="text" class="col-sm-3 col-form-label ">Username</label>
-                                    <div class="col-sm-9">
-                                       <input type="text" class="form-control " name="username" id="username" value="firdauszulkarnain" autocapitalize="off">
-                                    </div>
-                                 </div>
-                                 <div class="form-group row">
-                                    <label for="text" class="col-sm-3 col-form-label ">Nama</label>
-                                    <div class="col-sm-9">
-                                       <input type="text" class="form-control " name="nama" id="nama" value="Muhammad Firdaus Zulkarnain" autocapitalize="off">
-                                    </div>
-                                 </div>
-                                 <div class="form-group row">
-                                    <label for="text" class="col-sm-3 col-form-label ">E-mail</label>
-                                    <div class="col-sm-9">
-                                       <input type="text" class="form-control " name="email" id="email" value="firdauszulkarnain@gmail.com" autocapitalize="off">
-                                    </div>
-                                 </div>
-                                 <div class="form-group row">
-                                    <label for="text" class="col-sm-3 col-form-label ">No. Telp</label>
-                                    <div class="col-sm-9">
-                                       <input type="text" class="form-control " name="notelp" id="notelp" value="08133392893" autocapitalize="off">
-                                    </div>
+                              <div class="form-group row">
+                                 <label for="text" class="col-sm-3 col-form-label ">Username</label>
+                                 <div class="col-sm-9">
+                                    <input type="text" class="form-control " name="username" id="username" value="firdauszulkarnain" autocapitalize="off">
                                  </div>
                               </div>
-                              <a href="#" class="btn btn-sm border border-dark tombol border border-dark  mb-3 p-2">UBAH KATA SANDI</a>
+                              <div class="form-group row">
+                                 <label for="text" class="col-sm-3 col-form-label ">Nama</label>
+                                 <div class="col-sm-9">
+                                    <input type="text" class="form-control " name="nama" id="nama" value="Muhammad Firdaus Zulkarnain" autocapitalize="off">
+                                 </div>
+                              </div>
+                              <div class="form-group row">
+                                 <label for="text" class="col-sm-3 col-form-label ">E-mail</label>
+                                 <div class="col-sm-9">
+                                    <input type="text" class="form-control " name="email" id="email" value="firdauszulkarnain@gmail.com" autocapitalize="off">
+                                 </div>
+                              </div>
+                              <div class="form-group row">
+                                 <label for="text" class="col-sm-3 col-form-label ">No. Telp</label>
+                                 <div class="col-sm-9">
+                                    <input type="text" class="form-control " name="notelp" id="notelp" value="08133392893" autocapitalize="off">
+                                 </div>
+                              </div>
+                              <a href="ubahsandicustomer.php" class="btn btn-sm border border-dark tombol border border-dark  mb-3 p-2">UBAH KATA SANDI</a>
                            </div>
                            <div class="col-lg-4 mx-auto">
                               <div class="card warna mb-3 p-2">
@@ -77,11 +75,11 @@
                                     <input type="file" class="form-control-file mt-3 border border-white">
                                  </div>
                               </div>
-                              <button type="submit" name="submit" class="btn btn-lg btn-block tombol text-uppercase border border-dark mb-3 ">Simpan</button>
+                              <button type="submit" name="simpan" class="btn btn-lg btn-block tombol text-uppercase border border-dark mb-3 ">Simpan</button>
                            </div>
                         </div>
-                     </div>
-                  </form>
+                     </form>
+                  </div>
                </div>
             </div>
          </div>
