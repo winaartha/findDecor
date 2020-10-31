@@ -40,24 +40,32 @@
     </a>
   </div>
   <!-- Carousel End -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="vendor text-uppercase font-weight-bold text-center mt-4">Vendor</p>
+        <hr class="mb-5" width="20%">
+      </div>
+    </div>
+  </div>
 
-  <p class="vendor text-uppercase font-weight-bold text-center mt-4">Vendor</p>
-  <hr class="mb-5 ">
 
   <!-- Toko Start -->
-  <section class="vendor ml-4 mb-5">
+  <section class="vendor mb-5">
     <div class="container">
-      <div class="row">
+      <div class="row d-flex justify-content-center">
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <img src="assets/img/toko/img3.png" class="card-img-top" alt="...">
+          <div class="card mx-auto mb-3 ">
+            <img src="assets/img/toko/img3.png" class="card-img-top border-dark border-bottom" alt="...">
             <div class="card-body">
               <div class="row">
-                <div class="col-lg-8">
+                <div class="col-lg-7">
                   <h5 class="card-title font-weight-bold">Eufloria</h5>
-                  <p class="card-text">Dekorasi Pernikahan</p>
+                  <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
-                <button type="button" class="btn lihat pr-4 pl-4">LIHAT</button>
+                <div class="col-lg-5">
+                  <button type="button" class="btn btn-block tombol border border-dark">LIHAT</button>
+                </div>
               </div>
             </div>
           </div>
@@ -70,29 +78,26 @@
 
 
   <!-- Footer Start -->
-  <div class="footer  border-dark border-top pb-4">
+  <div class="footer border-dark border-top pb-4 bg-white">
     <div class="container">
       <div class="content">
         <div class="row">
           <div class="col-sm-2 isi">
-            <p class="ftitle mb-2">findDécor</p>
+            <p class="ftitle mb-2 mt-2">findDécor</p>
             <a href="" class="text-dark">Tentang Kami</a><br>
             <a href="" class="text-dark">Kebijakan Privasi</a><br>
             <a href="" class="text-dark">Kontak Media</a><br>
           </div>
           <div class="col lg-8">
-            <p class="bayar font-weight-bold mt-2 mb-0">PEMBAYARAN</p>
+            <p class="bayar font-weight-bold mt-3 mb-0">PEMBAYARAN</p>
             <div class="row p-1">
               <img src="assets/img/footer/BCA.png" alt="" width="70">
               <img src="assets/img/footer/BNI.png" alt="" width="130" class="bni">
               <img src="assets/img/footer/BRI.png" alt="" width="70" height="20" class="bri">
             </div>
-            <div class="row">
-              <img src="assets/img/footer/cimbniaga.png" alt="" width="70">
-            </div>
           </div>
           <div class="col-lg-2">
-            <p class="bayar font-weight-bold mt-2 mb-1">IKUTI KAMI</p>
+            <p class="bayar font-weight-bold mt-3 mb-1">IKUTI KAMI</p>
             <a href="" class="text-dark">Instagram</a><br>
             <a href="" class="text-dark">Twitter</a><br>
             <a href="" class="text-dark">Facebook</a>

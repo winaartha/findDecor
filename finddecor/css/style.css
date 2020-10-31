@@ -27,16 +27,29 @@
     font-size: 14px;
 }
 
-.mr-sm-2 {
-    width: 430px !important;
+/* Ubah Style Bootstrap */
+
+.card {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
 }
 
-.batas {
-    visibility: hidden;
+.form-control {
+    border-color: black;
+    font-size: 13px;
 }
 
-.shop {
-    visibility: hidden;
+hr {
+    border-color: black;
+}
+
+
+/* Utilty Tombol */
+.tombol {
+    background-color: #1A3263;
+    color: white;
+    font-family: 'OpenSans';
 }
 
 .masuk {
@@ -44,31 +57,17 @@
     background-color: white;
 }
 
-.daftar {
-    border-color: #1A3263;
-    background-color: #1A3263;
-    color: white;
-}
 
-/* Tulisan Vendor */
+/* VENDOR */
 .vendor {
     font-family: 'OpenSans';
     font-size: 32px;
 }
 
-.card {
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-}
-
-/* Toko */
 .vendor .card {
     max-width: 300px !important;
     border-radius: 10px;
-    margin-bottom: 10px;
 }
-
 
 .vendor .card-img-top {
     border-top-left-radius: 10px;
@@ -78,64 +77,26 @@
 
 .vendor .card-title {
     font-size: 14px;
-    margin-left: -10px;
 }
 
 .vendor .card-text {
     font-size: 12px;
-    margin-top: -10px;
-    margin-left: -10px;
 }
 
-.lihat {
-    background-color: #1A3263;
-    color: white;
+
+/* Profil */
+.content {
     font-family: 'OpenSans';
 }
 
-hr {
-    border-color: black;
-}
-
-/* MENU SAMPING */
+/* Menu Samping Profil */
 .menu a {
-    font-family: 'OpenSans';
     font-size: 22px;
 }
 
-/* Profil */
-.kotak {
-    margin-left: -60px;
-    font-family: 'OpenSans';
-}
 
-.kotak p {
-    font-size: 16px;
-}
-
-.kotak .form-control {
-    max-height: 25px !important;
-    border-color: black;
-    font-size: 13px;
-}
-
-
-.tombol {
-    background-color: #1A3263;
-    color: white;
-    font-family: 'OpenSans';
-}
-
-.footer1 {
-    font-family: 'OpenSans';
-    background-color: white;
-}
-
-footer {
-    background-color: white;
-}
-
-/* finddecor footer */
+/* FOOTER */
+/* footer Title */
 .ftitle {
     font-family: 'Berkshire_Swash';
     color: #1A3263;
@@ -145,7 +106,6 @@ footer {
 /* Atur Margin Bank */
 .bni {
     margin-left: -40px;
-
 }
 
 .bri {
@@ -153,8 +113,29 @@ footer {
     margin-top: 20px;
 }
 
-/* RESPONSIVE DESKTOP */
+/* HOVER */
+.masuk:hover {
+    background-color: #1A3263;
+    color: white;
+}
 
+.tombol:hover {
+    background-color: white;
+    color: #1A3263;
+}
+
+
+/* GAK JELAS */
+.batas {
+    visibility: hidden;
+}
+
+.shop {
+    visibility: hidden;
+}
+
+
+/* RESPONSIVE DESKTOP */
 @media (min-width: 992px) {
 
     /* Search */
@@ -173,42 +154,9 @@ footer {
         visibility: visible;
     }
 
-    /* Tombol Lihat */
-
     .batas {
         font-size: 35px;
         visibility: visible;
     }
 
-    .daftar:hover {
-        background-color: white;
-    }
-
-    .masuk:hover {
-        background-color: #1A3263;
-        color: white;
-    }
-
-    .lihat:hover {
-        color: #1A3263;
-        background-color: white;
-    }
-
-    .navbar-brand:hover {
-        color: black !important;
-    }
-
-    .shop:hover {
-        color: black;
-    }
-
-    .profil:hover {
-        color: black;
-    }
-
-    .tombol:hover {
-        color: #1A3263;
-        background-color: white;
-        font-weight: 800;
-    }
 }
