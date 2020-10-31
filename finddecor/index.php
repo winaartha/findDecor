@@ -90,7 +90,7 @@
           </div>
           <div class="col lg-8">
             <p class="bayar font-weight-bold mt-3 mb-0">PEMBAYARAN</p>
-            <div class="row p-1">
+            <div class="row p-1 mt-n2">
               <img src="assets/img/footer/BCA.png" alt="" width="70">
               <img src="assets/img/footer/BNI.png" alt="" width="130" class="bni">
               <img src="assets/img/footer/BRI.png" alt="" width="70" height="20" class="bri">

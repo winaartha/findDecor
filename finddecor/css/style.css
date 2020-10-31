@@ -1,7 +1,7 @@
 /* Navbar */
 @font-face {
     font-family: 'OpenSans';
-    src: url('../assets/font/OpenSans/OpenSans-Regular.ttf');
+    src: url('../assets/font/OpenSans/OpenSans-Bold.ttf');
 }
 
 @font-face {
@@ -83,8 +83,21 @@ hr {
     font-size: 12px;
 }
 
+.warna {
+    background-color: #1A3263;
+}
+
 
 /* Profil */
+.form-control-file {
+    font-size: 13px;
+    color: white;
+}
+
+.font {
+    font-size: 20px;
+}
+
 .content {
     font-family: 'OpenSans';
 }
