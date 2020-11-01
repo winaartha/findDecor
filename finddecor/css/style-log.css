@@ -4,37 +4,37 @@
 }
 
 
-body{
-	background: #f7f7f7;
-	line-height: 1.5;
+body {
+  background: #f7f7f7;
+  line-height: 1.5;
 }
 
-.card{
-	border-radius: 0;
-	border: 0;
+.card {
+  border-radius: 0;
+  border: 0;
 }
 
-.mt-12{
+.mt-12 {
   padding: 20px;
   margin: 20px;
   width: 100%;
 }
 
-.border-box{
-	box-shadow: 0 1px 1px rgba(0,0,0,0.04);
-	border: 1px solid rgba(171,169,169, 0,06);
+.border-box {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(171, 169, 169, 0, 06);
 }
 
 .logo {
-    font-family: 'Berkshire_Swash';
-    font-size: 45px;
-    margin-top: 50px;
-    color: #1A3263 !important;
+  font-family: 'Berkshire_Swash';
+  font-size: 45px;
+  margin-top: 50px;
+  color: #1A3263 !important;
 }
 
 header {
-    margin: 10px;
-    text-align: center;
+  margin: 10px;
+  text-align: center;
 }
 
 .container {
@@ -46,11 +46,11 @@ header {
 }
 
 .masuk {
-    border-color: #1A3263;
-    background-color: #1A3263;
-    color: white;
-    font-weight: bold;
-    font-family: 'OpenSans-Reguler', sans-serif;
+  border-color: #1A3263;
+  background-color: #1A3263;
+  color: white;
+  font-weight: bold;
+  font-family: 'OpenSans-Reguler', sans-serif;
 }
 
 .masuk:hover {
@@ -62,5 +62,5 @@ header {
 }
 
 .label {
-    color: #3d3d3d;
+  color: #3d3d3d;
 }

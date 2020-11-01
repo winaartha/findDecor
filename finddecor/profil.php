@@ -68,14 +68,14 @@
                               </div>
                               <a href="ubahsandicustomer.php" class="btn btn-sm border border-dark tombol border border-dark  mb-3 p-2">UBAH KATA SANDI</a>
                            </div>
-                           <div class="col-lg-4 mx-auto">
+                           <div class="col-lg-4">
                               <div class="card warna mb-3 p-2">
                                  <img src="assets/img/profile/Default.jpg" class="rounded-circle mx-auto border border-white" width="70%">
                                  <div class="form-group">
                                     <input type="file" class="form-control-file mt-3 border border-white">
                                  </div>
                               </div>
-                              <button type="submit" name="simpan" class="btn btn-lg btn-block tombol text-uppercase border border-dark mb-3 ">Simpan</button>
+                              <button type="submit" name="simpan" class="btn btn-lg btn-block tombol border border-dark mb-3">SIMPAN</button>
                            </div>
                         </div>
                      </form>
@@ -84,9 +84,6 @@
             </div>
          </div>
       </div>
-
-
-      <!-- CONTENT END -->
 
       <!-- FOOTER -->
       <div class="fixed-bottom text-center footer1 p-2 border-dark border-top bg-white">
