@@ -7,7 +7,7 @@
 
     <?php include "template/headtags.html"; ?>
 
-    <title>My Profil</title>
+    <title>Histori Pemesanan</title>
 </head>
 
 <body>

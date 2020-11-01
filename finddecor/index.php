@@ -51,7 +51,7 @@
 
 
   <p class="vendor text-uppercase font-weight-bold text-center mt-4">Vendor</p>
-  <hr class="mb-5" width="20%">
+  <hr class="mb-5 mt-n2" width="20%">
 
 
   <!-- Toko Start -->
@@ -68,7 +68,7 @@
                   <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
                 <div class="col-lg-5">
-                  <button type="button" class="btn btn-block tombol border border-dark">LIHAT</button>
+                  <button type="button" class="btn btn-block tombol">LIHAT</button>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@
                   <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
                 <div class="col-lg-5">
-                  <button type="button" class="btn btn-block tombol border border-dark">LIHAT</button>
+                  <button type="button" class="btn btn-block tombol">LIHAT</button>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
                   <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
                 <div class="col-lg-5">
-                  <button type="button" class="btn btn-block tombol border border-dark">LIHAT</button>
+                  <button type="button" class="btn btn-block tombol">LIHAT</button>
                 </div>
               </div>
             </div>
