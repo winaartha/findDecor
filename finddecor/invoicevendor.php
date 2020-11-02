@@ -7,7 +7,7 @@
 
     <?php include "template/headtags.html"; ?>
 
-    <title>Histori Pemesanan</title>
+    <title>Pemesanan Customer</title>
 </head>
 
 <body>
@@ -20,16 +20,19 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-2 mt-5">
-                    <div class="menu">
+                    <div class="vendor">
                         <ul class="nav mt-3">
                             <li class="nav-item">
-                                <a class="nav-link active text-dark" href="profil.php">Profil Saya</a>
+                                <a class="nav-link active text-dark" href="vendor.php">Vendor Saya</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="pemesanancustomer.php">Pemesanan</a>
+                                <a class="nav-link text-dark" href="daftarbarang.php">Daftar Barang</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="historicustomer.php">Histori</a>
+                                <a class="nav-link text-dark" href="pesananvendor.php">Pesanan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="invoicevendor.php">Invoice</a>
                             </li>
                         </ul>
                     </div>
@@ -37,7 +40,7 @@
                 <div class="col-lg-10">
                     <div class="card mt-5 p-3 mb-5">
                         <div class="container">
-                            <p class="font">RIWAYAT PEMESANAN SAYA</p>
+                            <p class="font">DAFTAR PESANAN VENDOR</p>
                             <hr class="mt-n2">
                             <div class="row">
                                 <div class="table-responsive">
@@ -45,32 +48,27 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">No</th>
+                                                <th>Pembeli</th>
                                                 <th scope="col">Barang</th>
-                                                <td>Vendor</td>
-                                                <th>Qty</th>
                                                 <th scope="col">Subtotal</th>
                                                 <th scope="col">Tanggal Pemesanan</th>
                                                 <th scope="col">Tanggal Selesai</th>
+                                                <th scope="col">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
+                                                <td>Firdaus</td>
                                                 <td>Tenda</td>
-                                                <td>Eufloria</td>
-                                                <td>3</td>
-                                                <td>Rp. 50.000</td>
+                                                <td>Rp. 150.000</td>
                                                 <td>20-10-2020</td>
                                                 <td>22-10-2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Sofa</td>
-                                                <td>Eufloria</td>
-                                                <td>1</td>
-                                                <td>Rp. 250.000</td>
-                                                <td>20-10-2020</td>
-                                                <td>22-10-2020</td>
+                                                <td>
+                                                    <!-- DETAIL PESANAN -->
+                                                    <a href="" class="btn btn-warning btn-sm">
+                                                        <i class="fas fa-fw fa-info-circle"></i>
+                                                    </a>
                                             </tr>
                                         </tbody>
                                     </table>

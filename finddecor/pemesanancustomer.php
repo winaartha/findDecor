@@ -45,7 +45,8 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">No</th>
-                                                <th scope="col">Nama Barang</th>
+                                                <th scope="col">Barang</th>
+                                                <td>Vendor</td>
                                                 <th>Qty</th>
                                                 <th scope="col">Subtotal</th>
                                                 <th scope="col">Status Pesanan</th>
@@ -56,6 +57,7 @@
                                             <tr>
                                                 <td>1</td>
                                                 <td>Tenda</td>
+                                                <td>Eufloria</td>
                                                 <td>3</td>
                                                 <td>Rp. 50.000</td>
                                                 <td>Menunggu Konfirmasi</td>
@@ -64,6 +66,7 @@
                                             <tr>
                                                 <td>2</td>
                                                 <td>Sofa</td>
+                                                <td>Eufloria</td>
                                                 <td>1</td>
                                                 <td>Rp. 250.000</td>
                                                 <td>Proses</td>

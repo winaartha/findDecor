@@ -29,7 +29,10 @@
                                 <a class="nav-link text-dark" href="daftarbarang.php">Daftar Barang</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" href="#">Pesanan</a>
+                                <a class="nav-link text-dark" href="pesananvendor.php">Pesanan</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="invoicevendor.php">Invoice</a>
                             </li>
                         </ul>
                     </div>

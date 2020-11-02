@@ -73,7 +73,6 @@ hr {
 .vendor .card {
     max-width: 300px !important;
     border-radius: 10px;
-    max-height: 270px;
 }
 
 .vendor .card-img-top {

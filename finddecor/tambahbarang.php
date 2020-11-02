@@ -7,7 +7,7 @@
 
     <?php include "template/headtags.html"; ?>
 
-    <title>Vendor Saya</title>
+    <title>TAMBAH BARANG</title>
 </head>
 
 <body>
@@ -40,46 +40,33 @@
                 <div class="col-lg-10">
                     <div class="card mt-5 p-3 mb-5">
                         <div class="container">
-                            <p class="font">VENDOR SAYA</p>
+                            <p class="font">TAMBAH BARANG VENDOR</p>
                             <hr class="mt-n2">
                             <form action="" method="POST">
                                 <div class="row">
+
+                                    <div class="col-lg-8 mt-3">
+                                        <div class="form-group">
+                                            <label for="namabrg">Nama Barang</label>
+                                            <input type="text" class="form-control" id="namabrg" name="namabrg">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="harga">Harga / Hari</label>
+                                            <input type="text" class="form-control" id="harga" name="harga">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="deskripsibrg">Deskripsi</label>
+                                            <textarea class="form-control" id="deskripsibrg" rows="4" name="deskripsi"></textarea>
+                                        </div>
+                                        <button type="submit" name="simpanbarang" class="btn btn-lg tombol mb-3 ">SIMPAN</button>
+                                    </div>
                                     <div class="col-lg-4 mt-5">
                                         <div class="card warna mb-3 p-2">
-                                            <img src="assets/img/logovendor/logo1.png" class="rounded-circle mx-auto border border-white" width="90%">
+                                            <img src="assets/img/barang/barang1.jpg" class="mx-auto border border-white" width="100%">
                                             <div class="form-group">
                                                 <input type="file" class="form-control-file mt-3 border border-light">
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-8 mt-3">
-                                        <div class="form-group">
-                                            <label for="vendor">Nama Vendor</label>
-                                            <input type="text" class="form-control" id="vendor" name="vendor" value="Solusi Murah">
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="alamat">Alamat</label>
-                                            <input type="text" class="form-control" id="alamat" name="alamat" value="Jl. Kampus Unud Bukit Jimbaran No. II">
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-lg-6 pr-2">
-                                                <div class="form-group">
-                                                    <label for="kecamatan">Kecamatan</label>
-                                                    <input type="text" class="form-control" id="kecamatan" name="kecamatan" value="Kuta Selatan">
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-6 pl-2">
-                                                <div class="form-group">
-                                                    <label for="kabupaten">Kabupaten</label>
-                                                    <input type="text" class="form-control" id="kabupaten" name="kabupaten" value="Badung">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label for="deskripsi">Deskripsi</label>
-                                            <textarea class="form-control" id="deskripsi" rows="4" name="deskripsi">Menyediakan Dekorasi Pernikahan Sesuai Dengan Yang Diinginkan </textarea>
-                                        </div>
-                                        <button type="submit" name="simpan" class="btn btn-lg tombol mb-3 float-right">SIMPAN</button>
                                     </div>
                                 </div>
                             </form>
