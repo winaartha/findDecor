@@ -22,15 +22,7 @@
             <div class="col-lg-2 mt-5">
                <div class="menu">
                   <ul class="nav mt-3">
-                     <li class="nav-item">
-                        <a class="nav-link active text-dark" href="profil.php">Profil Saya</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="pemesanancustomer.php">Pemesanan</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="historicustomer.php">Histori</a>
-                     </li>
+                     <?php include "template/sidebarcustomer.php" ?>
                   </ul>
                </div>
             </div>
@@ -75,7 +67,7 @@
                                     <input type="file" class="form-control-file mt-3 border border-light">
                                  </div>
                               </div>
-                              <button type="submit" name="simpan" class="btn btn-lg btn-block tombol mb-3">SIMPAN</button>
+                              <button type="submit" name="setprofil" class="btn btn-lg btn-block tombol mb-3">SIMPAN</button>
                            </div>
                         </div>
                      </form>

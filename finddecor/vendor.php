@@ -21,19 +21,8 @@
             <div class="row ">
                 <div class="col-lg-2 mt-5">
                     <div class="vendor">
-                        <ul class="nav mt-3">
-                            <li class="nav-item">
-                                <a class="nav-link active text-dark" href="vendor.php">Vendor Saya</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="daftarbarang.php">Daftar Barang</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="pesananvendor.php">Pesanan</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="invoicevendor.php">Invoice</a>
-                            </li>
+                        <ul class="nav">
+                            <?php include "template/sidebarvendor.php" ?>
                         </ul>
                     </div>
                 </div>
@@ -79,7 +68,7 @@
                                             <label for="deskripsi">Deskripsi</label>
                                             <textarea class="form-control" id="deskripsi" rows="4" name="deskripsi">Menyediakan Dekorasi Pernikahan Sesuai Dengan Yang Diinginkan </textarea>
                                         </div>
-                                        <button type="submit" name="simpan" class="btn btn-lg tombol mb-3 float-right">SIMPAN</button>
+                                        <button type="submit" name="setvendor" class="btn btn-lg tombol mb-3 float-right">SIMPAN</button>
                                     </div>
                                 </div>
                             </form>

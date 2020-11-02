@@ -45,10 +45,6 @@ body {
     font-size: 13px;
 }
 
-hr {
-    border-color: black;
-}
-
 
 /* Utilty Tombol */
 .tombol {
@@ -153,6 +149,15 @@ hr {
 
 .shop {
     visibility: hidden;
+}
+
+/* HALAMAN BAYAR */
+.order th {
+    font-size: 14px;
+}
+
+.order td {
+    font-size: 12px;
 }
 
 

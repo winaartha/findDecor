@@ -21,20 +21,7 @@
             <div class="row ">
                 <div class="col-lg-2 mt-5">
                     <div class="vendor">
-                        <ul class="nav mt-3">
-                            <li class="nav-item">
-                                <a class="nav-link active text-dark" href="vendor.php">Vendor Saya</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="daftarbarang.php">Daftar Barang</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="pesananvendor.php">Pesanan</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="invoicevendor.php">Invoice</a>
-                            </li>
-                        </ul>
+                        <?php include "template/sidebarvendor.php" ?>
                     </div>
                 </div>
                 <div class="col-lg-10">
@@ -53,7 +40,7 @@
                                                         <h5 class="card-title font-weight-bold mt-2">Set Kursi</h5>
                                                     </div>
                                                     <div class="col-lg-6">
-                                                        <button type="button" class="btn btn-block tombol">DETAIL</button>
+                                                        <a href="#" class="btn btn-block tombol">DETAIL</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -68,7 +55,7 @@
                                                         <h5 class="card-title font-weight-bold mt-2">Set Kursi</h5>
                                                     </div>
                                                     <div class="col-lg-6">
-                                                        <button type="button" class="btn btn-block tombol">DETAIL</button>
+                                                        <a href="#" class="btn btn-block tombol">DETAIL</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -83,7 +70,7 @@
                                                         <h5 class="card-title font-weight-bold mt-2">Set Kursi</h5>
                                                     </div>
                                                     <div class="col-lg-6">
-                                                        <button type="button" class="btn btn-block tombol">DETAIL</button>
+                                                        <a href="#" class="btn btn-block tombol">DETAIL</a>
                                                     </div>
                                                 </div>
                                             </div>

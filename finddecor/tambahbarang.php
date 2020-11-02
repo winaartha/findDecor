@@ -22,18 +22,7 @@
                 <div class="col-lg-2 mt-5">
                     <div class="vendor">
                         <ul class="nav mt-3">
-                            <li class="nav-item">
-                                <a class="nav-link active text-dark" href="vendor.php">Vendor Saya</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="daftarbarang.php">Daftar Barang</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="pesananvendor.php">Pesanan</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="invoicevendor.php">Invoice</a>
-                            </li>
+                            <?php include "template/sidebarvendor.php" ?>
                         </ul>
                     </div>
                 </div>
@@ -44,7 +33,6 @@
                             <hr class="mt-n2">
                             <form action="" method="POST">
                                 <div class="row">
-
                                     <div class="col-lg-8 mt-3">
                                         <div class="form-group">
                                             <label for="namabrg">Nama Barang</label>
@@ -58,7 +46,6 @@
                                             <label for="deskripsibrg">Deskripsi</label>
                                             <textarea class="form-control" id="deskripsibrg" rows="4" name="deskripsi"></textarea>
                                         </div>
-                                        <button type="submit" name="simpanbarang" class="btn btn-lg tombol mb-3 ">SIMPAN</button>
                                     </div>
                                     <div class="col-lg-4 mt-5">
                                         <div class="card warna mb-3 p-2">
@@ -67,6 +54,7 @@
                                                 <input type="file" class="form-control-file mt-3 border border-light">
                                             </div>
                                         </div>
+                                        <button type="submit" name="setbarang" class="btn btn-lg btn-block tombol mb-3 ">SIMPAN</button>
                                     </div>
                                 </div>
                             </form>

@@ -22,15 +22,7 @@
                 <div class="col-lg-2 mt-5 ml-5">
                     <div class="menu">
                         <ul class="nav mt-3">
-                            <li class="nav-item">
-                                <a class="nav-link active text-dark" href="profil.php">Profil Saya</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="pemesanancustomer.php">Pemesanan</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" href="historicustomer.php">Histori</a>
-                            </li>
+                            <?php include "template/sidebarcustomer.php" ?>
                         </ul>
                     </div>
                 </div>
@@ -59,7 +51,7 @@
                                     </div>
                                 </div>
                                 <a href="profil.php" class="btn btn-lg masuk text-uppercase border border-dark mb-3 mt-3" name="ubahsandi">Cancel</a>
-                                <button type="submit" class="btn btn-lg tombol text-uppercase border border-dark mb-3 mt-3 float-right" name="ubahsandi">Simpan</button>
+                                <button type="submit" class="btn btn-lg tombol text-uppercase border border-dark mb-3 mt-3 float-right" name="setsandi">Simpan</button>
                             </form>
                         </div>
                     </div>

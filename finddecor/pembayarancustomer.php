@@ -20,14 +20,16 @@
         <div class="container">
             <div class="row ">
                 <div class="col-lg-2 mt-5">
-                    <div class="vendor">
-                        <?php include "template/sidebarvendor.php" ?>
+                    <div class="menu">
+                        <ul class="nav mt-3">
+                            <?php include "template/sidebarcustomer.php" ?>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-lg-10">
                     <div class="card mt-5 p-3 mb-5">
                         <div class="container">
-                            <p class="font">DAFTAR PESANAN VENDOR</p>
+                            <p class="font">DAFTAR PEMESANAN SAYA</p>
                             <hr class="mt-n2">
                             <div class="row">
                                 <div class="table-responsive">
@@ -35,26 +37,24 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">No</th>
-                                                <th>Pembeli</th>
                                                 <th scope="col">Barang</th>
+                                                <td>Vendor</td>
+                                                <th>Qty</th>
                                                 <th scope="col">Subtotal</th>
-                                                <th scope="col">Tanggal Pemesanan</th>
-                                                <th scope="col">Tanggal Selesai</th>
-                                                <th scope="col">Action</th>
+                                                <th>Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr>
                                                 <td>1</td>
-                                                <td>Firdaus</td>
                                                 <td>Tenda</td>
-                                                <td>Rp. 150.000</td>
-                                                <td>20-10-2020</td>
-                                                <td>22-10-2020</td>
+                                                <td>Eufloria</td>
+                                                <td>3</td>
+                                                <td>Rp. 50.000</td>
                                                 <td>
-                                                    <!-- DETAIL PESANAN -->
-                                                    <a href="" class="btn btn-warning btn-sm">
-                                                        <i class="fas fa-fw fa-info-circle"></i>
+                                                    <!-- BAYAR -->
+                                                    <a href="halamanbayar.php" class="btn btn-danger btn-sm">
+                                                        BAYAR
                                                     </a>
                                                 </td>
                                             </tr>

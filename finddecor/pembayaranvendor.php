@@ -7,7 +7,7 @@
 
     <?php include "template/headtags.html"; ?>
 
-    <title>Pemesanan Customer</title>
+    <title>Pembayaran Vendor</title>
 </head>
 
 <body>
@@ -27,7 +27,7 @@
                 <div class="col-lg-10">
                     <div class="card mt-5 p-3 mb-5">
                         <div class="container">
-                            <p class="font">DAFTAR PESANAN VENDOR</p>
+                            <p class="font">DAFTAR PEMBAYARAN BARANG</p>
                             <hr class="mt-n2">
                             <div class="row">
                                 <div class="table-responsive">
@@ -35,12 +35,11 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">No</th>
-                                                <th>Toko</th>
-                                                <th scope="col">Barang</th>
-                                                <th>Qty</th>
+                                                <th>A/N</th>
                                                 <th scope="col">BANK</th>
-                                                <th scope="col">Status</th>
-                                                <td>Action</td>
+                                                <th>Subtotoal</th>
+                                                <th scope="col">Tanggal-Jam</th>
+                                                <th scope="col">Action</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -48,28 +47,12 @@
                                                 <form action="" method="">
                                                     <td>1</td>
                                                     <td>Firdaus</td>
-                                                    <td>Tenda</td>
-                                                    <td>3</td>
+                                                    <td>BCA</td>
                                                     <td>Rp. 150.000</td>
+                                                    <td>20-10-2020 09.00</td>
                                                     <td>
-                                                        <div class="form-group">
-                                                            <select class="form-control" id="status" name="status">
-                                                                <option disabled selected>Set Status</option>
-                                                                <option value="Proses">Konfirmasi</option>
-                                                                <option value="Proses">Proses</option>
-                                                                <option value="Kirim">Kirim</option>
-                                                                <option value="Selesai">Selesai</option>
-                                                            </select>
-                                                        </div>
-                                                    </td>
-                                                    <td>
-                                                        <!-- DETAIL PESANAN -->
-                                                        <a href="" class="btn btn-warning btn-sm">
-                                                            <i class="fas fa-fw fa-info-circle"></i>
-                                                        </a>
-                                                        <!-- SET STATUS -->
-                                                        <button type="submit" class="btn btn-success btn-sm" name="setstatus">
-                                                            SET
+                                                        <button type="submit" class="btn btn-danger btn-sm" name="setkonfirmasi">
+                                                            Konfirmasi
                                                         </button>
                                                     </td>
                                                 </form>
