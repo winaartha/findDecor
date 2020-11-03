@@ -68,7 +68,7 @@
                   <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
                 <div class="col-lg-5">
-                  <button type="button" class="btn btn-block tombol">LIHAT</button>
+                  <a href="halamanpilihbarang.php" class="btn btn-block tombol">LIHAT</a>
                 </div>
               </div>
             </div>
@@ -84,7 +84,7 @@
                   <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
                 <div class="col-lg-5">
-                  <button type="button" class="btn btn-block tombol">LIHAT</button>
+                  <a href="halamanpilihbarang.php" class="btn btn-block tombol">LIHAT</a>
                 </div>
               </div>
             </div>
@@ -100,7 +100,7 @@
                   <p class="card-text mt-n2 mb-3">Dekorasi Pernikahan</p>
                 </div>
                 <div class="col-lg-5">
-                  <button type="button" class="btn btn-block tombol">LIHAT</button>
+                  <a href="halamanpilihbarang.php" class="btn btn-block tombol">LIHAT</a>
                 </div>
               </div>
             </div>
