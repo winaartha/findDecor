@@ -47,6 +47,10 @@
                                             <input type="text" class="form-control" id="vendor" name="vendor" value="Solusi Murah">
                                         </div>
                                         <div class="form-group">
+                                            <label for="notelp">No. Telp</label>
+                                            <input type="text" class="form-control" id="notelp" name="notelp" value="0812345678">
+                                        </div>
+                                        <div class="form-group">
                                             <label for="alamat">Alamat</label>
                                             <input type="text" class="form-control" id="alamat" name="alamat" value="Jl. Kampus Unud Bukit Jimbaran No. II">
                                         </div>
@@ -61,6 +65,27 @@
                                                 <div class="form-group">
                                                     <label for="kabupaten">Kabupaten</label>
                                                     <input type="text" class="form-control" id="kabupaten" name="kabupaten" value="Badung">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p class="mb-1 text-center">REKENING BANK</p>
+                                        <div class="row">
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <label for="bca">BCA</label>
+                                                    <input type="text" class="form-control" id="bca" name="bca" value="032 900 977 9">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <label for="bni">BNI</label>
+                                                    <input type="text" class="form-control" id="bni" name="bni" value="010 642 703 5">
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4">
+                                                <div class="form-group">
+                                                    <label for="bri">BRI</label>
+                                                    <input type="text" class="form-control" id="bri" name="bri" value="111-00-0459047-3">
                                                 </div>
                                             </div>
                                         </div>

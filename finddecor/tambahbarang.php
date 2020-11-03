@@ -46,6 +46,7 @@
                                             <label for="deskripsibrg">Deskripsi</label>
                                             <textarea class="form-control" id="deskripsibrg" rows="4" name="deskripsi"></textarea>
                                         </div>
+
                                     </div>
                                     <div class="col-lg-4 mt-5">
                                         <div class="card warna mb-3 p-2">
@@ -54,9 +55,11 @@
                                                 <input type="file" class="form-control-file mt-3 border border-light">
                                             </div>
                                         </div>
-                                        <button type="submit" name="setbarang" class="btn btn-lg btn-block tombol mb-3 ">SIMPAN</button>
                                     </div>
+
                                 </div>
+                                <a href="daftarbarang.php" class="btn btn-lg tombol">KEMBALI</a>
+                                <button type="submit" name="setbarang" class="float-right btn btn-lg tombol mb-3 ">SIMPAN</button>
                             </form>
                         </div>
                     </div>

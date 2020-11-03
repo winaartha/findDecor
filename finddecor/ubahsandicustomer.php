@@ -50,8 +50,8 @@
                                         <input type="password" class="form-control" name="konfir_password" id="konfir_password" value="123456" autocapitalize="off">
                                     </div>
                                 </div>
-                                <a href="profil.php" class="btn btn-lg masuk text-uppercase border border-dark mb-3 mt-3" name="ubahsandi">Cancel</a>
-                                <button type="submit" class="btn btn-lg tombol text-uppercase border border-dark mb-3 mt-3 float-right" name="setsandi">Simpan</button>
+                                <a href="profilcustomer.php" class="btn btn-lg tombol mb-3 mt-3">KEMBALI</a>
+                                <button type="submit" class="btn btn-lg tombol mb-3 mt-3 float-right" name="setsandi">SIMPAN</button>
                             </form>
                         </div>
                     </div>

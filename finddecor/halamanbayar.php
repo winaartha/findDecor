@@ -51,7 +51,8 @@
                                             <label for="tglbayar">Tanggal Bayar</label>
                                             <input type="date" class="form-control" id="tglbayar" name="tglbayar">
                                         </div>
-                                        <button type="submit" name="bayar" class="btn btn-lg tombol mb-3">KIRIM</button>
+                                        <a href="pembayarancustomer.php" class="btn btn-lg tombol mb-3 ">KEMBALI</a>
+                                        <button type="submit" name="bayar" class="btn btn-lg tombol mb-3 float-right">KIRIM</button>
                                     </form>
                                 </div>
                                 <div class="col-lg-5">
@@ -105,7 +106,7 @@
                                 </div>
                                 <div class="col-lg-4">
                                     <div class="card border border-dark mb-3 p-2">
-                                        <p class="text-center">MANDIRI</p>
+                                        <p class="text-center">BRI</p>
                                         <hr class="mt-n2">
                                         <p class="text-center"> 111-00-0459047-3</p>
                                     </div>

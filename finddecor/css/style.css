@@ -45,6 +45,10 @@ body {
     font-size: 13px;
 }
 
+hr {
+    background-color: black;
+}
+
 
 /* Utilty Tombol */
 .tombol {

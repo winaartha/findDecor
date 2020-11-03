@@ -27,7 +27,7 @@
                 <div class="col-lg-10">
                     <div class="card mt-5 p-3 mb-5">
                         <div class="container">
-                            <p class="font">DAFTAR PESANAN VENDOR</p>
+                            <p class="font">DAFTAR INVOICE VENDOR</p>
                             <hr class="mt-n2">
                             <div class="row">
                                 <div class="table-responsive">
@@ -52,8 +52,8 @@
                                                 <td>20-10-2020</td>
                                                 <td>22-10-2020</td>
                                                 <td>
-                                                    <!-- DETAIL PESANAN -->
-                                                    <a href="" class="btn btn-warning btn-sm">
+                                                    <!-- DETAIL INVOICE -->
+                                                    <a href="detailinvoice.php" class="btn btn-warning btn-sm">
                                                         <i class="fas fa-fw fa-info-circle"></i>
                                                     </a>
                                                 </td>

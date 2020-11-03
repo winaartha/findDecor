@@ -27,7 +27,7 @@
                 <div class="col-lg-10">
                     <div class="card mt-5 p-3 mb-5">
                         <div class="container">
-                            <p class="font">DAFTAR BARANG VENDOR</p>
+                            <p class="font">Daftar Barang Vendor</p>
                             <hr class="mt-n2">
                             <div class="vendor">
                                 <div class="row">

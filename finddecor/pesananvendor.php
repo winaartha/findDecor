@@ -7,7 +7,7 @@
 
     <?php include "template/headtags.html"; ?>
 
-    <title>Pemesanan Customer</title>
+    <title>Pesanan Vendor</title>
 </head>
 
 <body>
@@ -35,10 +35,10 @@
                                         <thead>
                                             <tr>
                                                 <th scope="col">No</th>
-                                                <th>Toko</th>
+                                                <th>Pembeli</th>
                                                 <th scope="col">Barang</th>
                                                 <th>Qty</th>
-                                                <th scope="col">BANK</th>
+                                                <th scope="col">Total</th>
                                                 <th scope="col">Status</th>
                                                 <td>Action</td>
                                             </tr>
@@ -64,7 +64,7 @@
                                                     </td>
                                                     <td>
                                                         <!-- DETAIL PESANAN -->
-                                                        <a href="" class="btn btn-warning btn-sm">
+                                                        <a href="detailpesanan.php" class="btn btn-warning btn-sm">
                                                             <i class="fas fa-fw fa-info-circle"></i>
                                                         </a>
                                                         <!-- SET STATUS -->
